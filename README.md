@@ -11,44 +11,32 @@ This project implements a Chinese text-based gender classifier using transformer
 - pandas
 - numpy
 
-## Installation
-```bash
-pip install torch transformers pandas numpy
-```
-
 ## Usage
 1. **Training**
 ```bash
 python train.py
 ```
 
-2. **Prediction**
-- Interactive mode:
-```bash
-python predict.py
-```
-- Batch mode:
-```bash
-python predict.py --file input.csv --column message --output predictions.csv
-```
-
-3. **Evaluation**
+2. **Evaluation**
 ```bash
 python test.py
 ```
 
-## Project Structure
-- `train.py`: Model training script
-- `predict.py`: Prediction script
-- `test.py`: Model evaluation
-- `preprocess.py`: Data preprocessing
-- `results/`: Directory for trained models
+3. **Prediction**
+- Interactive mode:
+```bash
+python predict.py
+```
+- Batch mode (recommended):
+```bash
+python predict.py --file input.csv --column message --output predictions.csv
+```
 
 ## Release
 - Pre-trained model weights are available in the [Releases](https://github.com/xue362/Chinese-Chat-Gender-Classifier/releases/tag/v0.1.with_weights) section
 
 ## Additional Notes
-- This project was developed with assistance from AI coding tools
+- This project was developed with assistance from AI tools
 
 
         
