@@ -175,7 +175,7 @@ if __name__ == "__main__":
     parser.add_argument("--column", type=str, default="message", help="CSV文件中包含文本的列名。")
     parser.add_argument("--output", type=str, default="predictions_details.csv", help="保存逐条预测结果的输出CSV文件名。")
 
-    # python interactive.py --file to_predict.csv --column message --output prediction_details.csv
+    # python predict.py --file to_predict.csv --column message --output prediction_details.csv
     
     args = parser.parse_args()
 
