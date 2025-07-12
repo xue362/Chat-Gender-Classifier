@@ -33,10 +33,14 @@ python predict.py --file input.csv --column message --output predictions.csv
 ```
 
 ## Release
-- Pre-trained model weights are available in the [Releases](https://github.com/xue362/Chinese-Chat-Gender-Classifier/releases/tag/v0.1.with_weights) section
+- A pre-trained model is available in the [Releases](https://github.com/xue362/Chinese-Chat-Gender-Classifier/releases/tag/v0.1.with_weights) section
+
+## Dataset
+-  Training data were collected from part of my wechat logs, which is worth noting that it can be inaccurate when predicting
+-  The dataset will NOT be made public due to privacy issue
 
 ## Additional Notes
-- This project was developed with assistance from AI tools
+- Part, if not all of this project was developed with assistance from AI
 
 
         
