@@ -31,6 +31,7 @@ python predict.py
 ```bash
 python predict.py --file input.csv --column message --output predictions.csv
 ```
+- It is also recommended to give over **50** messages as input.
 
 ## Release
 - A pre-trained model is available in the [Releases](https://github.com/xue362/Chinese-Chat-Gender-Classifier/releases/tag/v0.1.with_weights) section.
