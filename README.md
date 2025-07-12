@@ -1,8 +1,8 @@
         
-# Chinese Chat Gender Classifier Project
+# Chinese Chat Gender Classifier
 
 ## Overview
-This project implements a Chinese text-based gender classifier using transformer models. It can predict whether a given Chinese text was written by a male or female author.
+This project implements a Chinese text-based gender classifier using transformer models([Chinese Bert](https://huggingface.co/hfl/chinese-roberta-wwm-ext)). It can predict whether a given Chinese text series was written by a male or female author.
 
 ## Requirements
 - Python 3.7+
@@ -37,10 +37,10 @@ python predict.py --file input.csv --column message --output predictions.csv
 
 ## Dataset
 -  Training data were collected from part of my wechat logs, which is worth noting that it can be inaccurate when predicting
--  The dataset will NOT be made public due to privacy issue
+-  The dataset will **NOT** be made public due to privacy issue
 
 ## Additional Notes
-- Part, if not all of this project was developed with assistance from AI
+- Part, if not all, of this project was developed with AI
 
 
         
